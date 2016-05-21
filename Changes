@@ -1,5 +1,10 @@
 Revision history for Data-Sah-CoerceRule-array-str_comma_sep
 
+0.003   2016-05-21 (PERLANCAR)
+
+	- [test] Skip js tests when node.js is not available [CT].
+
+
 0.002   2016-05-19 (PERLANCAR)
 
 	- No functional changes.
