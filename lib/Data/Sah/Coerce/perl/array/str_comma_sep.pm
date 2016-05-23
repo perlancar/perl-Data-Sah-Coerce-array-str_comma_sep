@@ -38,4 +38,4 @@ sub coerce {
 
 The rule is not enabled by default. You can enable it in a schema using e.g.:
 
- ["array*", of=>"int", "x.coerce_from"=>["str_comma_sep"]]
+ ["array*", of=>"int", "x.coerce_rules"=>["str_comma_sep"]]

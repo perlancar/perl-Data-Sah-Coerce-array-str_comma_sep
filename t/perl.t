@@ -8,7 +8,7 @@ use Data::Sah::Coerce qw(gen_coercer);
 use Test::More 0.98;
 
 subtest "coerce_to=array" => sub {
-    my $c = gen_coercer(type=>"array", coerce_from=>["str_comma_sep"]);
+    my $c = gen_coercer(type=>"array", coerce_rules=>["str_comma_sep"]);
 
     # uncoerced
     is_deeply($c->({}), {}, "uncoerced");

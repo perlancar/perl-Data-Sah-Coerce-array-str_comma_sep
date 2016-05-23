@@ -11,7 +11,7 @@ use Test::More 0.98;
 plan skip_all => "node.js not available" unless get_nodejs_path();
 
 subtest "coerce_to=array" => sub {
-    my $c = gen_coercer(type=>"array", coerce_from=>["str_comma_sep"]);
+    my $c = gen_coercer(type=>"array", coerce_rules=>["str_comma_sep"]);
 
     # uncoerced
     is_deeply($c->({}), {}, "uncoerced");
