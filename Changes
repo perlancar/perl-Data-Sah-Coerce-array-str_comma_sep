@@ -1,5 +1,3 @@
-Revision history for Data-Sah-CoerceRule-array-str_comma_sep
-
 0.005   2016-05-23 (PERLANCAR)
 
 	- Adjust to Data::Sah::Coerce 0.011 (coerce_from & dont_coerce_from
