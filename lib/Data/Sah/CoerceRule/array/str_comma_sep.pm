@@ -17,6 +17,10 @@ enable it in a schema using e.g.:
 
 =head1 SEE ALSO
 
+L<Data::Sah::CoerceRule::array::str_int_range>
+
+L<Data::Sah::CoerceRule::array::str_int_range_and_comma_sep>
+
 L<Data::Sah::Coerce>
 
 L<Data::Sah>
